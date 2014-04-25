@@ -1,0 +1,31 @@
+# files that should not be checked into Git
+
+# executables, object files and images
+test.sh
+trace
+*.o
+*.ppm
+*.png
+
+# backup files
+*~
+#*
+*.orig
+
+# if you build on a mac, you might get these too
+.DS_Store
+project.xcworkspace
+xcuserdata
+*.dSYM
+
+# if you build on windows, you might get these
+*.user
+*.suo
+*.sdf
+*.sdf
+*.pdb
+*.exe
+obj
+bin
+Debug
+Release
